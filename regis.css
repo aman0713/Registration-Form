@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+.first{
+  width: 100%;
+  position: relative;
+  background-color: rgb(223, 225, 255)
+}
+.main{
+  width: 158vh;
+  height: 100vh;
+  position: relative;
+  left: 190px;
+  background-color: rgb(211, 39, 50);
+
+  
+}
+.main form{
+  position: relative;
+}
+.main form fieldset{
+  position: relative;
+  width: 900px;
+  height: 99vh;
+}
+.main form input{
+  position: absolute;
+  left: 30%;
+  line-height: 20px;
+  width: 25%;
+} 
+.main form fieldset .id1{
+  position: relative;
+  top: 20px;
+  left: 40vh;
+  color: white;
+}
+.main form fieldset .id2{
+  position: relative;
+  left: 30vh;
+  width: 15%;
+  height: 8vh;
+  cursor:pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+.main form fieldset .id3{
+  position: relative;
+  right: 20vh;
+  cursor: pointer;
+  width: 15%;
+  height: 8vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+.main form fieldset  h1{
+  color: white;
+}
+.main form fieldset  .id1 .male
+{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .female
+{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .CSE{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .Civil{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .ECE{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .java{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .JS{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .dsa{
+  position: relative;
+  left: -100px;
+}
+
+.main form fieldset  .id1 .ccc{
+  position: relative;
+  left: -100px;
+}
+.main form fieldset  .id1 .dsa1{
+  position: relative;
+  left: 10000px;
+}
+.main form fieldset  .id1 .id2{
+  border-radius: 30px;
+}
+
+.main form fieldset  .id1 .id3{
+  border-radius: 30px;
+}
+.main form fieldset  .id1 .id2:hover{
+  background-color: rgb(47, 206, 26);
+    border: 2px solid  #4e14df;
+    cursor: pointer;
+}
+.main form fieldset  .id1 .id3:hover{
+  background-color: rgb(47, 206, 26);
+    border: 2px solid  #4e14df;
+    cursor: pointer;
+}
